@@ -1,8 +1,8 @@
-#include "JsonNode.hpp"
+#include "Soup/JsonNode.hpp"
 
-#include "Exception.hpp"
-#include "JsonArray.hpp"
-#include "JsonObject.hpp"
+#include "Soup/Exception.hpp"
+#include "Soup/JsonArray.hpp"
+#include "Soup/JsonObject.hpp"
 
 namespace soup
 {

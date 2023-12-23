@@ -1,8 +1,8 @@
-#include "JsonArray.hpp"
+#include "Soup/JsonArray.hpp"
 
-#include "json.hpp"
-#include "string.hpp"
-#include "Writer.hpp"
+#include "Soup/json.hpp"
+#include "Soup/string.hpp"
+#include "Soup/Writer.hpp"
 
 namespace soup
 {

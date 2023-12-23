@@ -1,6 +1,6 @@
-#include "sha256.hpp"
+#include "Soup/sha256.hpp"
 
-#include "base.hpp"
+#include "Soup/base.hpp"
 
 #if SOUP_X86 && SOUP_BITS == 64 && defined(SOUP_USE_INTRIN)
 #define SHA256_USE_INTRIN true
@@ -10,7 +10,7 @@
 
 #include <cstring> // memcpy
 
-#include "StringRefReader.hpp"
+#include "Soup/StringRefReader.hpp"
 
 #if SHA256_USE_INTRIN
 #include "CpuInfo.hpp"

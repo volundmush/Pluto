@@ -1,7 +1,7 @@
 #define LUA_LIB
 #include "lualib.h"
 
-#include "vendor/Soup/soup/urlenc.hpp"
+#include "Soup/urlenc.hpp"
 
 static int url_encode (lua_State* L) {
   const auto input = pluto_checkstring(L, 1);

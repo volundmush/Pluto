@@ -1,8 +1,8 @@
-#include "JsonString.hpp"
+#include "Soup/JsonString.hpp"
 
-#include "string.hpp"
-#include "unicode.hpp"
-#include "Writer.hpp"
+#include "Soup/string.hpp"
+#include "Soup/unicode.hpp"
+#include "Soup/Writer.hpp"
 
 namespace soup
 {

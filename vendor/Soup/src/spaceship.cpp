@@ -1,4 +1,4 @@
-#include "spaceship.hpp"
+#include "Soup/spaceship.hpp"
 
 #if !SOUP_SPACESHIP_USE_STD
 namespace soup

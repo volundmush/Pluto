@@ -14,8 +14,8 @@
 #include <sstream>
 #include <iomanip>
 
-#include "vendor/Soup/soup/sha256.hpp"
-#include "vendor/Soup/soup/string.hpp"
+#include "Soup/sha256.hpp"
+#include "Soup/string.hpp"
 
 
 static int fnv1(lua_State *L)

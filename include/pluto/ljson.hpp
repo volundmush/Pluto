@@ -2,15 +2,16 @@
 
 // https://github.com/calamity-inc/Soup-Lua-Bindings/blob/main/soup_lua_bindings.hpp
 
-#include "vendor/Soup/soup/json.hpp"
-#include "vendor/Soup/soup/JsonInt.hpp"
-#include "vendor/Soup/soup/JsonBool.hpp"
-#include "vendor/Soup/soup/JsonNode.hpp"
-#include "vendor/Soup/soup/JsonFloat.hpp"
-#include "vendor/Soup/soup/JsonArray.hpp"
-#include "vendor/Soup/soup/JsonObject.hpp"
-#include "vendor/Soup/soup/JsonString.hpp"
-#include "vendor/Soup/soup/UniquePtr.hpp"
+
+#include "Soup/json.hpp"
+#include "Soup/JsonInt.hpp"
+#include "Soup/JsonBool.hpp"
+#include "Soup/JsonNode.hpp"
+#include "Soup/JsonFloat.hpp"
+#include "Soup/JsonArray.hpp"
+#include "Soup/JsonObject.hpp"
+#include "Soup/JsonString.hpp"
+#include "Soup/UniquePtr.hpp"
 
 static bool isIndexBasedTable(lua_State* L, int i)
 {

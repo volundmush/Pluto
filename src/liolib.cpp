@@ -22,7 +22,7 @@
 #include "lauxlib.h"
 #include "lualib.h"
 
-#include "vendor/Soup/soup/string.hpp"
+#include "Soup/string.hpp"
 
 
 #ifdef PLUTO_NO_FILESYSTEM

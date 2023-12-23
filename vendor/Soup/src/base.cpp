@@ -1,4 +1,4 @@
-#include "base.hpp"
+#include "Soup/base.hpp"
 
 static_assert(sizeof(void*) * 8 == SOUP_BITS);
 
@@ -6,7 +6,7 @@ static_assert(sizeof(void*) * 8 == SOUP_BITS);
 #include <iostream>
 #endif
 
-#include "Exception.hpp"
+#include "Soup/Exception.hpp"
 
 namespace soup
 {

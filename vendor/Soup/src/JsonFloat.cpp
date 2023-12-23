@@ -1,7 +1,7 @@
-#include "JsonFloat.hpp"
+#include "Soup/JsonFloat.hpp"
 
-#include "string.hpp"
-#include "Writer.hpp"
+#include "Soup/string.hpp"
+#include "Soup/Writer.hpp"
 
 namespace soup
 {

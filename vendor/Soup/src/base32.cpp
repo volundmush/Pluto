@@ -1,9 +1,9 @@
-#include "base32.hpp"
+#include "Soup/base32.hpp"
 
 #include <algorithm>
 #include <vector>
 
-#include "bitutil.hpp"
+#include "Soup/bitutil.hpp"
 
 namespace soup
 {

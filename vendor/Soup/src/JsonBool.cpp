@@ -1,6 +1,6 @@
-#include "JsonBool.hpp"
+#include "Soup/JsonBool.hpp"
 
-#include "Writer.hpp"
+#include "Soup/Writer.hpp"
 
 namespace soup
 {

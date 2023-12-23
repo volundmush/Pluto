@@ -1,7 +1,7 @@
-#include "CpuInfo.hpp"
+#include "Soup/CpuInfo.hpp"
 #if SOUP_X86
 
-#include "string.hpp"
+#include "Soup/string.hpp"
 
 #if defined(_MSC_VER) && !defined(__clang__)
 #include <intrin.h>

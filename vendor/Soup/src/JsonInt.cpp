@@ -1,6 +1,6 @@
-#include "JsonInt.hpp"
+#include "Soup/JsonInt.hpp"
 
-#include "Writer.hpp"
+#include "Soup/Writer.hpp"
 
 namespace soup
 {
