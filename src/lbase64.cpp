@@ -1,7 +1,7 @@
 #define LUA_LIB
 
-#include "lauxlib.h"
-#include "lualib.h"
+#include "pluto/lauxlib.h"
+#include "pluto/lualib.h"
 
 #include <string>
 #include "Soup/base64.hpp"

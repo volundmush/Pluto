@@ -7,17 +7,17 @@
 #define lzio_c
 #define LUA_CORE
 
-#include "lprefix.h"
+#include "pluto/lprefix.h"
 
 
 #include <string.h>
 
-#include "lua.h"
+#include "pluto/lua.h"
 
-#include "llimits.h"
-#include "lmem.h"
-#include "lstate.h"
-#include "lzio.h"
+#include "pluto/llimits.h"
+#include "pluto/lmem.h"
+#include "pluto/lstate.h"
+#include "pluto/lzio.h"
 
 
 int luaZ_fill (ZIO *z) {

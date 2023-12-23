@@ -7,7 +7,7 @@
 #define lstrlib_c
 #define LUA_LIB
 
-#include "lprefix.h"
+#include "pluto/lprefix.h"
 #include <string>
 #include <string_view>
 #include <ctype.h>
@@ -20,10 +20,10 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "lua.h"
+#include "pluto/lua.h"
 
-#include "lauxlib.h"
-#include "lualib.h"
+#include "pluto/lauxlib.h"
+#include "pluto/lualib.h"
 
 
 #include "Soup/urlenc.hpp"

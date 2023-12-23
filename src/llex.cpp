@@ -7,27 +7,27 @@
 #define llex_c
 #define LUA_CORE
 
-#include "lprefix.h"
+#include "pluto/lprefix.h"
 
 
 #include <locale.h>
 #include <string.h>
 
-#include "lua.h"
+#include "pluto/lua.h"
 
-#include "lctype.h"
-#include "ldebug.h"
-#include "ldo.h"
-#include "lerrormessage.hpp"
-#include "lgc.h"
-#include "llex.h"
-#include "lobject.h"
-#include "lparser.h"
-#include "lstate.h"
-#include "lstring.h"
-#include "lsuggestions.hpp"
-#include "ltable.h"
-#include "lzio.h"
+#include "pluto/lctype.h"
+#include "pluto/ldebug.h"
+#include "pluto/ldo.h"
+#include "pluto/lerrormessage.hpp"
+#include "pluto/lgc.h"
+#include "pluto/llex.h"
+#include "pluto/lobject.h"
+#include "pluto/lparser.h"
+#include "pluto/lstate.h"
+#include "pluto/lstring.h"
+#include "pluto/lsuggestions.hpp"
+#include "pluto/ltable.h"
+#include "pluto/lzio.h"
 
 // Note that this may sometimes break parsing.
 #define TOKENDUMP false

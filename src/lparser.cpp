@@ -7,7 +7,7 @@
 #define lparser_c
 #define LUA_CORE
 
-#include "lprefix.h"
+#include "pluto/lprefix.h"
 
 
 #include <math.h>
@@ -21,26 +21,26 @@
 #include <vector>
 #include <unordered_set>
 
-#include "lua.h"
-#include "lualib.h" // Pluto::all_preloaded
-#include "lapi.h" // api_incr_top
-#include "lcode.h"
-#include "ldebug.h"
-#include "ldo.h"
-#include "lfunc.h"
-#include "llex.h"
-#include "lmem.h"
-#include "lobject.h"
-#include "lopcodes.h"
-#include "lparser.h"
-#include "lstate.h"
-#include "lstring.h"
-#include "lsuggestions.hpp"
-#include "ltable.h"
-#include "lauxlib.h"
-#include "lvm.h"
+#include "pluto/lua.h"
+#include "pluto/lualib.h" // Pluto::all_preloaded
+#include "pluto/lapi.h" // api_incr_top
+#include "pluto/lcode.h"
+#include "pluto/ldebug.h"
+#include "pluto/ldo.h"
+#include "pluto/lfunc.h"
+#include "pluto/llex.h"
+#include "pluto/lmem.h"
+#include "pluto/lobject.h"
+#include "pluto/lopcodes.h"
+#include "pluto/lparser.h"
+#include "pluto/lstate.h"
+#include "pluto/lstring.h"
+#include "pluto/lsuggestions.hpp"
+#include "pluto/ltable.h"
+#include "pluto/lauxlib.h"
+#include "pluto/lvm.h"
 
-#include "lerrormessage.hpp"
+#include "pluto/lerrormessage.hpp"
 
 #include "Soup/version_compare.hpp"
 

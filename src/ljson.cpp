@@ -1,9 +1,9 @@
 #define LUA_LIB
 
-#include "lauxlib.h"
-#include "lualib.h"
+#include "pluto/lauxlib.h"
+#include "pluto/lualib.h"
 
-#include "ljson.hpp"
+#include "pluto/ljson.hpp"
 
 static int encode(lua_State* L) {
 	auto root = checkJson(L, 1);

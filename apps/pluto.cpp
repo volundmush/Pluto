@@ -6,7 +6,7 @@
 
 #define lua_c
 
-#include "lprefix.h"
+#include "pluto/lprefix.h"
 
 
 #include <stdio.h>
@@ -19,10 +19,10 @@
 
 #include <signal.h>
 
-#include "lua.h"
+#include "pluto/lua.h"
 
-#include "lauxlib.h"
-#include "lualib.h"
+#include "pluto/lauxlib.h"
+#include "pluto/lualib.h"
 
 
 #if !defined(LUA_PROGNAME)

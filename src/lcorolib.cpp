@@ -7,15 +7,15 @@
 #define lcorolib_c
 #define LUA_LIB
 
-#include "lprefix.h"
+#include "pluto/lprefix.h"
 
 
 #include <stdlib.h>
 
-#include "lua.h"
+#include "pluto/lua.h"
 
-#include "lauxlib.h"
-#include "lualib.h"
+#include "pluto/lauxlib.h"
+#include "pluto/lualib.h"
 
 
 static lua_State *getco (lua_State *L) {

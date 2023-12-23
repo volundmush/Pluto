@@ -16,12 +16,12 @@
 #include <thread>
 #include <chrono>
 
-#include "lua.h"
-#include "lprefix.h"
-#include "lauxlib.h"
-#include "lualib.h"
-#include "lobject.h"
-#include "lstate.h"
+#include "pluto/lua.h"
+#include "pluto/lprefix.h"
+#include "pluto/lauxlib.h"
+#include "pluto/lualib.h"
+#include "pluto/lobject.h"
+#include "pluto/lstate.h"
 
 #include "Soup/version_compare.hpp"
 

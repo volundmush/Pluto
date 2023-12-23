@@ -23,9 +23,9 @@
 ** Any function declared here could be written as an application function.
 */
 
-#include "lua.h"
-#include "lprefix.h"
-#include "lauxlib.h"
+#include "pluto/lua.h"
+#include "pluto/lprefix.h"
+#include "pluto/lauxlib.h"
 
 
 #ifdef PLUTO_LUA_LINKABLE

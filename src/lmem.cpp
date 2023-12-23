@@ -7,19 +7,19 @@
 #define lmem_c
 #define LUA_CORE
 
-#include "lprefix.h"
+#include "pluto/lprefix.h"
 
 
 #include <stddef.h>
 
-#include "lua.h"
+#include "pluto/lua.h"
 
-#include "ldebug.h"
-#include "ldo.h"
-#include "lgc.h"
-#include "lmem.h"
-#include "lobject.h"
-#include "lstate.h"
+#include "pluto/ldebug.h"
+#include "pluto/ldo.h"
+#include "pluto/lgc.h"
+#include "pluto/lmem.h"
+#include "pluto/lobject.h"
+#include "pluto/lstate.h"
 
 
 

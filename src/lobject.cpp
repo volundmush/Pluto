@@ -7,7 +7,7 @@
 #define lobject_c
 #define LUA_CORE
 
-#include "lprefix.h"
+#include "pluto/lprefix.h"
 
 
 #include <locale.h>
@@ -17,16 +17,16 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "lua.h"
+#include "pluto/lua.h"
 
-#include "lctype.h"
-#include "ldebug.h"
-#include "ldo.h"
-#include "lmem.h"
-#include "lobject.h"
-#include "lstate.h"
-#include "lstring.h"
-#include "lvm.h"
+#include "pluto/lctype.h"
+#include "pluto/ldebug.h"
+#include "pluto/ldo.h"
+#include "pluto/lmem.h"
+#include "pluto/lobject.h"
+#include "pluto/lstate.h"
+#include "pluto/lstring.h"
+#include "pluto/lvm.h"
 
 
 /*

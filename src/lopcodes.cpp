@@ -7,10 +7,10 @@
 #define lopcodes_c
 #define LUA_CORE
 
-#include "lprefix.h"
+#include "pluto/lprefix.h"
 
 
-#include "lopcodes.h"
+#include "pluto/lopcodes.h"
 
 
 /* ORDER OP */

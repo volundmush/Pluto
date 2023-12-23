@@ -1,7 +1,7 @@
 #include <cstring>
 
 #define LUA_LIB
-#include "lualib.h"
+#include "pluto/lualib.h"
 
 static const luaL_Reg funcs[] = {
   {nullptr, nullptr}

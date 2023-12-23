@@ -7,7 +7,7 @@
 #define loslib_c
 #define LUA_LIB
 
-#include "lprefix.h"
+#include "pluto/lprefix.h"
 
 #include <thread>
 #include <chrono>
@@ -17,12 +17,12 @@
 #include <string.h>
 #include <time.h>
 
-#include "lua.h"
+#include "pluto/lua.h"
 
-#include "lauxlib.h"
-#include "lualib.h"
+#include "pluto/lauxlib.h"
+#include "pluto/lualib.h"
 #ifdef PLUTO_ETL_ENABLE
-#include "lstate.h"
+#include "pluto/lstate.h"
 #endif
 
 

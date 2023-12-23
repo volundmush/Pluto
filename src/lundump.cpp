@@ -7,22 +7,22 @@
 #define lundump_c
 #define LUA_CORE
 
-#include "lprefix.h"
+#include "pluto/lprefix.h"
 
 
 #include <limits.h>
 #include <string.h>
 
-#include "lua.h"
+#include "pluto/lua.h"
 
-#include "ldebug.h"
-#include "ldo.h"
-#include "lfunc.h"
-#include "lmem.h"
-#include "lobject.h"
-#include "lstring.h"
-#include "lundump.h"
-#include "lzio.h"
+#include "pluto/ldebug.h"
+#include "pluto/ldo.h"
+#include "pluto/lfunc.h"
+#include "pluto/lmem.h"
+#include "pluto/lobject.h"
+#include "pluto/lstring.h"
+#include "pluto/lundump.h"
+#include "pluto/lzio.h"
 
 
 #if !defined(luai_verifycode)

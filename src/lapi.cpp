@@ -7,29 +7,29 @@
 #define lapi_c
 #define LUA_CORE
 
-#include "lprefix.h"
+#include "pluto/lprefix.h"
 
 
 #include <limits.h>
 #include <stdarg.h>
 #include <string.h>
 
-#include "lprefix.h"
-#include "lua.h"
+#include "pluto/lprefix.h"
+#include "pluto/lua.h"
 
-#include "lapi.h"
-#include "ldebug.h"
-#include "ldo.h"
-#include "lfunc.h"
-#include "lgc.h"
-#include "lmem.h"
-#include "lobject.h"
-#include "lstate.h"
-#include "lstring.h"
-#include "ltable.h"
-#include "ltm.h"
-#include "lundump.h"
-#include "lvm.h"
+#include "pluto/lapi.h"
+#include "pluto/ldebug.h"
+#include "pluto/ldo.h"
+#include "pluto/lfunc.h"
+#include "pluto/lgc.h"
+#include "pluto/lmem.h"
+#include "pluto/lobject.h"
+#include "pluto/lstate.h"
+#include "pluto/lstring.h"
+#include "pluto/ltable.h"
+#include "pluto/ltm.h"
+#include "pluto/lundump.h"
+#include "pluto/lvm.h"
 
 
 

@@ -12,20 +12,20 @@
 #include <math.h>
 #include <stdlib.h>
 
-#include "lua.h"
-#include "lprefix.h"
-#include "lcode.h"
-#include "ldebug.h"
-#include "ldo.h"
-#include "lgc.h"
-#include "llex.h"
-#include "lmem.h"
-#include "lobject.h"
-#include "lopcodes.h"
-#include "lparser.h"
-#include "lstring.h"
-#include "ltable.h"
-#include "lvm.h"
+#include "pluto/lua.h"
+#include "pluto/lprefix.h"
+#include "pluto/lcode.h"
+#include "pluto/ldebug.h"
+#include "pluto/ldo.h"
+#include "pluto/lgc.h"
+#include "pluto/llex.h"
+#include "pluto/lmem.h"
+#include "pluto/lobject.h"
+#include "pluto/lopcodes.h"
+#include "pluto/lparser.h"
+#include "pluto/lstring.h"
+#include "pluto/ltable.h"
+#include "pluto/lvm.h"
 
 
 /* Maximum number of registers in a Lua function (must fit in 8 bits) */

@@ -1,12 +1,12 @@
 #define LUA_LIB
 
-#include "lua.h"
-#include "lualib.h"
-#include "lprefix.h"
-#include "luaconf.h"
-#include "lauxlib.h"
-#include "lstring.h"
-#include "lcryptolib.hpp"
+#include "pluto/lua.h"
+#include "pluto/lualib.h"
+#include "pluto/lprefix.h"
+#include "pluto/luaconf.h"
+#include "pluto/lauxlib.h"
+#include "pluto/lstring.h"
+#include "pluto/lcryptolib.hpp"
 
 #include <ios>
 #include <string>

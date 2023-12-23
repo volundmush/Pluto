@@ -10,7 +10,7 @@ file(GLOB_RECURSE PLUTO_INCLUDE include/*.h include/*.hpp)
 file(GLOB_RECURSE PLUTO_SRC src/*.cpp src/*.c)
 
 set(PLUTO_INCLUDE_DIRS
-        include/pluto
+        include
         vendor/Soup/include
 )
 

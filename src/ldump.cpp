@@ -7,18 +7,18 @@
 #define ldump_c
 #define LUA_CORE
 
-#include "lprefix.h"
+#include "pluto/lprefix.h"
 
 
 #include <limits.h>
 #include <stddef.h>
 
-#include "lua.h"
+#include "pluto/lua.h"
 
-#include "lobject.h"
-#include "lopcodes.h"
-#include "lstate.h"
-#include "lundump.h"
+#include "pluto/lobject.h"
+#include "pluto/lopcodes.h"
+#include "pluto/lstate.h"
+#include "pluto/lundump.h"
 
 
 typedef struct {

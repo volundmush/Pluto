@@ -7,7 +7,7 @@
 #define lmathlib_c
 #define LUA_LIB
 
-#include "lprefix.h"
+#include "pluto/lprefix.h"
 
 
 #include <float.h>
@@ -16,10 +16,10 @@
 #include <stdlib.h>
 #include <time.h>
 
-#include "lua.h"
+#include "pluto/lua.h"
 
-#include "lauxlib.h"
-#include "lualib.h"
+#include "pluto/lauxlib.h"
+#include "pluto/lualib.h"
 
 
 #undef PI

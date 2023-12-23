@@ -7,19 +7,19 @@
 #define ltablib_c
 #define LUA_LIB
 
-#include "lprefix.h"
+#include "pluto/lprefix.h"
 
 
 #include <limits.h>
 #include <stddef.h>
 #include <string.h>
 
-#include "lua.h"
+#include "pluto/lua.h"
 
-#include "lauxlib.h"
-#include "lualib.h"
-#include "lstate.h"
-#include "ltable.h"
+#include "pluto/lauxlib.h"
+#include "pluto/lualib.h"
+#include "pluto/lstate.h"
+#include "pluto/ltable.h"
 
 
 /*

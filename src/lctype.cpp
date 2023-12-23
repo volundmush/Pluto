@@ -7,10 +7,10 @@
 #define lctype_c
 #define LUA_CORE
 
-#include "lprefix.h"
+#include "pluto/lprefix.h"
 
 
-#include "lctype.h"
+#include "pluto/lctype.h"
 
 #if !LUA_USE_CTYPE	/* { */
 

@@ -7,7 +7,7 @@
 #define lvm_c
 #define LUA_CORE
 
-#include "lprefix.h"
+#include "pluto/lprefix.h"
 
 #include <float.h>
 #include <limits.h>
@@ -16,19 +16,19 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "lua.h"
+#include "pluto/lua.h"
 
-#include "ldebug.h"
-#include "ldo.h"
-#include "lfunc.h"
-#include "lgc.h"
-#include "lobject.h"
-#include "lopcodes.h"
-#include "lstate.h"
-#include "lstring.h"
-#include "ltable.h"
-#include "ltm.h"
-#include "lvm.h"
+#include "pluto/ldebug.h"
+#include "pluto/ldo.h"
+#include "pluto/lfunc.h"
+#include "pluto/lgc.h"
+#include "pluto/lobject.h"
+#include "pluto/lopcodes.h"
+#include "pluto/lstate.h"
+#include "pluto/lstring.h"
+#include "pluto/ltable.h"
+#include "pluto/ltm.h"
+#include "pluto/lvm.h"
 
 #ifdef PLUTO_ETL_ENABLE
 #include <chrono>
@@ -37,8 +37,8 @@
 #ifdef PLUTO_VMDUMP
 #include <string>
 #include <sstream>
-#include "lauxlib.h" // lua_writestring
-#include "lopnames.h"
+#include "pluto/lauxlib.h" // lua_writestring
+#include "pluto/lopnames.h"
 #endif
 
 
@@ -1314,7 +1314,7 @@ static const std::vector<OpCode> allowOps = { vmDumpAllow };
 
 
 #if !defined(__GNUC__) && !defined(__clang__) && defined(PLUTO_FORCE_JUMPTABLE)
-#include "ljumptab.h"
+#include "pluto/ljumptab.h"
 #endif
 
 void luaV_execute (lua_State *L, CallInfo *ci) {
@@ -1328,7 +1328,7 @@ void luaV_execute (lua_State *L, CallInfo *ci) {
   int sequentialTailCalls = 0;
 #endif
 #if (defined(__GNUC__) || defined(__clang__)) && !defined(PLUTO_VMDUMP)
-#include "ljumptabgcc.h"
+#include "pluto/ljumptabgcc.h"
 #endif
  startfunc:
   trap = L->hookmask;
